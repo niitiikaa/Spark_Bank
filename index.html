@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+   <title>Home</title>
+
+    <link href="index.css" rel="stylesheet">
+
+   
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css" integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@700&display=swap" rel="stylesheet"> 
+    </head>
+
+
+<body>
+
+ <!-- page-header -->
+    <div class="page-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                    <div class="page-caption">
+                        <h1 class="page-title" style="font-family: 'Old Standard TT', serif;" >Spark Bank</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.page-header-->
+    <!-- news -->
+    <div class="card-section">
+        <div class="container">
+            <div class="card-block bg-white mb12">
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                        <!-- section-title -->
+                        <div class="section-title mb-0">
+                            <h2  style="font-family: 'Old Standard TT', serif;" >Welcome to Spark bank</h2>
+                            <p>Our approach is very simple: we define your problem and give the best solution. </p>
+                            <hr>
+
+                            <div class="container-fluid mb-5">
+                                <div class="text-center mt-5">
+                                    <h1 style="font-family: 'Old Standard TT', serif;" >Our Services</h1>
+                                </div>
+                                <div class="row">
+                               
+                                
+                                    <div class="col-md-4">
+                                        <div class="box">
+                                            <div class="our-services backups">
+                                                <div class="icon"> <img src="https://i.imgur.com/vdH9LKi.png"> </div>
+                                                <h4 style="font-family: 'Old Standard TT', serif;">New User</h4>
+                                                <p>Join us<br>Create a new account for transactions </p>
+                                                <div class="button"><a style="color:aliceblue;" href="user.php">Create</a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="box">
+                                            <div class="our-services ssl">
+                                                <div class="icon"> <img src="https://i.imgur.com/v6OnUqu.png"> </div>
+                                                <h4 style="font-family: 'Old Standard TT', serif;">Transfer Money</h4>
+                                                <p>Transfer money with our users</p>
+                                                <div class="button"><a style="color:aliceblue;" href="trans.php">Transfer</a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="box">
+                                            <div class="our-services database">
+                                                <div class="icon"> <img src="https://i.imgur.com/VzjZw9M.png"> </div>
+                                                <h4 style="font-family: 'Old Standard TT', serif;">Transfer history</h4>
+                                                <p>Check all the transfer history</p>
+                                                <div class="button"><a style="color:aliceblue;" href="transhis.php">History</a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+                        </div>
+                        <!-- /.section-title -->
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 text-center">
+                        <br>
+              Created for <a href="https://sg.linkedin.com/company/the-sparks-foundation" target="_blank">Spark Foundation</a>
+            <br>
+              <p>By Nitika Thingalaya</p>
+            </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

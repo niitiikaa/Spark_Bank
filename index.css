@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Cinzel&display=swap');
+body 
+{ 
+    -webkit-font-smoothing: antialiased;
+     text-rendering: optimizeLegibility;
+     
+       letter-spacing: 0px; font-size: 17px;
+        /*color: #bcbebe;*/
+         font-weight: 400;
+         line-height: 32px;
+         background-color: #d1d3d3 !important;
+        
+}
+h1, h2, h3, h4, h5, h6 
+{
+     color: #25292a; 
+     margin: 0px 0px 10px 0px; 
+     font-family: 'Playfair Display SC', serif;
+     font-weight: 700; 
+     letter-spacing: -1px; 
+     line-height: 1; 
+}
+
+h1 { font-size: 34px; }
+
+h2 { font-size: 28px; line-height: 38px; }
+
+h3 { font-size: 22px; line-height: 32px; }
+
+h4 { font-size: 20px; }
+
+h5 { font-size: 17px; }
+
+h6 { font-size: 12px; }
+
+p {
+     margin: 0 0 20px;
+     line-height: 1.7;
+     font-family: 'Cinzel', serif;
+     }
+p:last-child
+ { 
+    margin: 0px; 
+}
+
+/*ul, ol { }*/
+
+a 
+{ 
+    text-decoration: none; 
+    color: #8d8f90; 
+    -webkit-transition: all 0.3s; 
+    -moz-transition: all 0.3s; 
+    transition: all 0.3s; 
+}
+
+a:focus, a:hover 
+{ 
+    text-decoration: none; 
+    color: #f85759; 
+}
+
+
+
+.page-header { background: url(https://easetemplate.com/free-website-templates/hike/images/pageheader.jpg)no-repeat; position: relative; background-size: cover; }
+.page-caption { padding-top: 170px; padding-bottom: 174px; }
+.page-title { font-size: 46px; line-height: 1; color: #fff; font-weight: 600; text-align: center; }
+
+.card-section
+ { 
+     position: relative;
+      bottom: 60px;
+ }
+
+
+.card-block 
+{ 
+    padding: 80px; 
+}
+
+
+.section-title 
+{ 
+    margin-bottom: 60px; 
+}
+
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+}
+
+
+
+.box {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+   
+}
+
+.our-services {
+    margin-top: 75px;
+    padding-bottom: 10px;
+    padding: 0 60px;
+    min-height: 250px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #e4e3e3;
+    transition: all .4s ease-in-out;
+    box-shadow: 0 0 25px 0 rgba(20, 27, 202, .17)
+}
+
+    .our-services .icon {
+        margin-bottom: -21px;
+        transform: translateY(-50%);
+        text-align: center;
+
+    }
+
+    .our-services:hover h4,
+    .our-services:hover p {
+        color: #fff
+    }
+
+
+
+.backups:hover {
+    box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #fc6a0e 0%, #fdb642 100%)
+}
+
+.ssl:hover {
+    box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #8d40fb 0%, #5a57fb 100%)
+}
+
+.database:hover {
+    box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #27b88d 0%, #22dd73 100%)
+}
+
+
+
+.button {
+    display: inline-block;
+    background: #25292a;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 10px;
+    border-radius: 5px;
+    box-shadow: 0px 17px 10px -10px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    -webkit-transition: all ease-in-out 300ms;
+    transition: all ease-in-out 300ms;
+    
+}
+    .button .a
+    {
+        text-decoration: none;
+
+        
+    }
+
+
+    .button:hover {
+        box-shadow: 0px 37px 20px -20px rgba(0, 0, 0, 0.2);
+        -webkit-transform: translate(0px, -10px) scale(1.2);
+        transform: translate(0px, -10px) scale(1.2);
+    }
